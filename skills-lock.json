@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "confident-onboard": {
+      "source": "confident-ai/confident-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/confident-onboard/skills/confident-onboard/SKILL.md",
+      "computedHash": "85993623525196c53e6a6a3fb3b5edf940b5149d25428c51406d74f8da397993"
+    }
+  }
+}
