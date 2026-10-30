@@ -16,3 +16,16 @@ python -m pip install -r requirements.txt
 ```powershell
 .\venv\Scripts\python.exe -m pytest -s -v .\test_whetherToolCall.py
 ```
+
+
+## add below to .env 
+```
+OPENAI_API_KEY
+WEATHER_API_KEY
+```
+
+## add below to .env.local file
+```
+CONFIDENT_API_KEY
+API_KEY
+```
