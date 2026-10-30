@@ -20,8 +20,15 @@ python -m pip install -r requirements.txt
 
 ## add below to .env 
 ```
-OPENAI_API_KEY
-WEATHER_API_KEY
+GROQ_API_KEY="your-groq-api-key"
+WEATHER_API_KEY="your-openweathermap-api-key"
+```
+
+The Groq agent script uses Groq's `qwen/qwen3-32b` model and requires
+`GROQ_API_KEY`. Install dependencies with:
+
+```powershell
+python -m pip install -r requirements.txt
 ```
 
 ## add below to .env.local file
@@ -29,3 +36,7 @@ WEATHER_API_KEY
 CONFIDENT_API_KEY
 API_KEY
 ```
+
+
+The weather tool provides current conditions only; it cannot answer historical
+weather questions such as weather over the last seven days.
