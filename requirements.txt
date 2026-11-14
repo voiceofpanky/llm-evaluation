@@ -2,3 +2,4 @@ deepeval==3.9.8
 python-dotenv>=1.0.0
 portalocker[win32]
 langchain-groq
+pytest-html==4.2.0
