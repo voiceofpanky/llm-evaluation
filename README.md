@@ -81,6 +81,21 @@ deepeval test run test_whetherToolCall.py
 python .\test_whetherToolCall.py
 .\venv\Scripts\python.exe -m pytest -s -v .\test_whetherToolCall.py
 ```
+## All metrics in single test below
+
+test_all_metrics_llama31.py.
+
+Run with :
+.\venv\Scripts\python.exe -m pytest -q .\test_all_metrics_llama31.py
+
+It evaluates:
+
+Task Completion
+Tool Correctness
+Answer Relevancy
+Output Correctness via GEval
+Faithfulness
+and uses the local Llama 3.1 model through Ollama.
 
 ## Optional: xAI / Grok Remote Inference
 
